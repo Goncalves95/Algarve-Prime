@@ -116,6 +116,13 @@ main{
     color: #ffffff;
 }
 
+/* Gallery styles */
+
+#chef-home{
+    position: relative;
+    bottom: 30%;
+    width: 80%;
+}
 /* Footer */
 #social-networks {
     text-align: center;
