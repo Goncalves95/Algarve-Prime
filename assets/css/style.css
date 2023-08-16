@@ -120,6 +120,19 @@ main{
     color: #ffffff;
 }
 
+/* About section */
+#about{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#about-text{
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
 /* Gallery styles */
 #photos img {
     width: 100%;
