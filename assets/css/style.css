@@ -121,7 +121,14 @@ main{
 }
 
 /* Gallery styles */
+#photos img {
+    width: 100%;
+    line-height: 1rem;
+}
 
+#photos {
+    line-height: 0;
+}
 
 /* Footer */
 #social-networks {
