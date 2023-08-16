@@ -148,4 +148,12 @@ main{
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Blue light on logo */
+    #logo:hover{
+        color: black;
+            text-shadow: 0 0 5px #4a4ae7,
+                0 0 25px #4a4ae7,
+                0 0 50px #4a4ae7,
+                0 0 100px #4a4ae7;
+    }
 }
