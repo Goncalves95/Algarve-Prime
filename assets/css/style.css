@@ -67,8 +67,8 @@ header a {
 /* Navbar style working with dropdown toggle */
 nav{
     position: absolute;
-    background-color: #ffffff;
-    width: 100%;
+     background-color: #ffffff;
+     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -87,7 +87,12 @@ nav{
 
 .nav-toggle-label{
     font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: translate(-50%,-50%);
 }
+
 
 /* Main content */
 main{
@@ -106,31 +111,43 @@ main{
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-     background-color: rgba(241, 109, 107, .7);
-     font-size: 130%;
-     position: absolute;
-     bottom: 30px;
-     width: 80%;
-     min-height: 200px;
-     padding-top: 40px;
-     padding-left: 10px;
+     background-color: rgba(255, 215, 0, 0.5);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
 
-/* About section */
-#about{
-    height: 600px;
-    width: 100%;
+/* Main Information */
+
+#main-info{
+    height: 20%;
+    width: 80%;
     position: relative;
+
 }
 
-#about-text{
-    padding-left: 10px;
-    padding-top: 20px;
-    text-align: justify;
+.main-info-text{
+    padding: 110px 10px 0 50px;
+}
+
+/* About section */
+#about{
+    height: 20px;
+    width: 80%;
+    position: relative;
+   
+}
+
+.about-text {
+    padding: 110px 10px 0 50px;
 }
 
 /* Gallery styles */
@@ -245,10 +262,10 @@ main{
     /* Blue light on logo */
     #logo:hover{
         color: black;
-            text-shadow: 0 0 5px #4a4ae7,
-                0 0 25px #4a4ae7,
-                0 0 50px #4a4ae7,
-                0 0 100px #4a4ae7;
+            text-shadow: 0 0 5px gold,
+                0 0 25px gold,
+                0 0 50px gold,
+                0 0 100px gold;
     }
 
     /* Gallery */
